@@ -1,0 +1,13 @@
+git init
+git config --global user.name"rajdeep1113"
+git config --global user.email"rajdeepsinh7568@gmail.com"
+echo "this is read me file">README.md
+git status
+git add README.md
+git status
+git commit -m"this is my first commit in main branch"
+git status
+git branch -m main
+git branch
+git remote add origin https://github.com/rajdeep1113/connaction.git
+git push -u origin main
